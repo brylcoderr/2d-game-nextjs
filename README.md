@@ -21,8 +21,8 @@ A modern web application built with Next.js, React, Tailwind CSS, and TypeScript
 
 Clone the repository:
 ```sh
-git clone https://github.com/yourusername/my-v0-project.git
-cd my-v0-project
+git clone https://github.com/brylcoderr/2d-game-nextjs.git
+cd 2d-game-nextjs
 ```
 
 Install dependencies:
