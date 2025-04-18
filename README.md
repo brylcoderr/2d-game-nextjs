@@ -1,61 +1,41 @@
-# My 2d-game
+# 🎮 Coin Collector
 
-![Next.js](https://img.shields.io/badge/Next.js-15.2.4-blue)
-![React](https://img.shields.io/badge/React-19-blue)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.17-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+**Coin Collector** is a fun and interactive 2D game built using **Next.js**, **React**, and styled with **Tailwind CSS**. Navigate your character, avoid obstacles, and collect coins to boost your score and level up!
 
-## Description
-A modern web application built with Next.js, React, Tailwind CSS, and TypeScript. This project incorporates various Radix UI components, state management with React Hook Form, and utilities like date-fns and clsx for seamless development.
+![Coin Collector Gameplay](./project-6.png)
 
-## Features
-- **Next.js 15** for server-side rendering and static site generation
-- **React 19** for modern UI development
-- **Tailwind CSS** for fast and flexible styling
-- **TypeScript** for type safety
-- **Radix UI** for accessible and customizable UI components
-- **React Hook Form & Zod** for form validation
-- **Embla Carousel & Recharts** for UI enhancements
+## 🚀 Features
 
-## Installation
+- 🧩 Level-based progression
+- 🪙 Coin collection system
+- 🚫 Avoid enemies (triangles, squares, and more)
+- 🌌 Starry background for an immersive experience
+- 🎮 Keyboard-based player controls
+- 🔥 Real-time score and high score tracking
+- ⏸ Pause and resume gameplay
+- ♻️ Built using modular and modern React components
 
-Clone the repository:
-```sh
-git clone https://github.com/brylcoderr/2d-game-nextjs.git
-cd 2d-game-nextjs
-```
+---
 
-Install dependencies:
-```sh
-yarn install  # or npm install or pnpm install
-```
+## 🛠️ Tech Stack
 
-## Usage
+| Tech                | Description                                |
+|---------------------|--------------------------------------------|
+| **Next.js**         | React framework for building web apps      |
+| **React**           | Front-end JavaScript library               |
+| **Tailwind CSS**    | Utility-first CSS framework                |
+| **Radix UI**        | Accessible UI primitives                   |
+| **TypeScript**      | Static typing for JavaScript               |
+| **Recharts**        | Charting library (for potential future stats) |
+| **React Hook Form** | Form handling with ease                    |
+| **Zod**             | Schema validation                          |
 
-### Development
-```sh
-yarn dev  # Runs the development server
-```
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-### Build
-```sh
-yarn build  # Builds the app for production
-```
+## 📦 Installation
 
-### Start
-```sh
-yarn start  # Runs the built application
-```
+1. **Clone the repo**
 
-### Lint
-```sh
-yarn lint  # Lints the codebase
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-This project is licensed under the MIT License.
-
+```bash
+git clone https://github.com/yourusername/coin-collector.git
+cd coin-collector
