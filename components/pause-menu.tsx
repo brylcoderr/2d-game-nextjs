@@ -47,7 +47,7 @@ export default function PauseMenu({ onResume, onRestart, onHome, onToggleSound, 
         </Button>
         <Button
           onClick={onHome}
-          className="bg-gray-600 hover:bg-gray-700 flex items-center justify-center gap-2"
+          className="bg-white hover:bg-gray-700 flex items-center justify-center gap-2"
           variant="outline"
         >
           <Home className="w-5 h-5" /> Main Menu

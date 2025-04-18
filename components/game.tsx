@@ -450,9 +450,7 @@ export default function Game() {
   // Render game
   useEffect(() => {
     if (!canvasRef.current || !gameStarted) return;
-  }, [canvasRef, gameStarted]);
-  useEffect(() => {
-    if (!canvasRef.current || !gameStarted) return;},[canvasRef,gameStarted])
+
     // Get canvas context
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -473,9 +471,7 @@ export default function Game() {
     gameState.stars.forEach((star) => {
       ctx.fillStyle = star.color || "white";
       ctx.fillRect(star.x, star.y, star.width, star.height);
-
-      ctx.fillStyle = star.color || "white";
-      ctx.fillRect(star.x, star.y, star.width, star.height);
+    });
 
     // Draw level indicator
     ctx.font = "16px Arial";
@@ -870,7 +866,7 @@ export default function Game() {
               <Button 
                 onClick={toggleSound} 
                 variant="outline" 
-                className="text-white border-gray-600"
+                className="text-black border-gray-600"
               >
                 {soundEnabled ? "Sound: On" : "Sound: Off"}
               </Button>
@@ -924,7 +920,7 @@ export default function Game() {
                 <Button 
                   onClick={goToMainMenu} 
                   variant="outline" 
-                  className="text-white border-gray-600"
+                  className="text-black border-gray-600"
                 >
                   Main Menu
                 </Button>

@@ -17,7 +17,7 @@ export default function GameControls({ isPaused, isGameOver, onPause, onRestart 
         <Button
           onClick={onPause}
           variant="outline"
-          className="border-gray-600 text-white hover:bg-gray-700 flex items-center gap-2"
+          className="border-gray-600 text-black hover:bg-gray-700 flex items-center gap-2"
           size="lg"
         >
           {isPaused ? (
