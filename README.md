@@ -1,3 +1,5 @@
+
+```md
 # 🎮 Coin Collector
 
 **Coin Collector** is a fun and interactive 2D game built using **Next.js**, **React**, and styled with **Tailwind CSS**. Navigate your character, avoid obstacles, and collect coins to boost your score and level up!
@@ -39,3 +41,106 @@
 ```bash
 git clone https://github.com/yourusername/coin-collector.git
 cd coin-collector
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. **Run the development server**
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) to play the game!
+
+---
+
+## 🧪 Scripts
+
+| Command        | Description                      |
+|----------------|----------------------------------|
+| `npm run dev`  | Start development server         |
+| `npm run build`| Build for production             |
+| `npm start`    | Start production server          |
+| `npm run lint` | Run linter                       |
+
+---
+
+## 📁 Project Structure
+
+```bash
+📦 coin-collector
+ ┣ 📂public
+ ┣ 📂components
+ ┣ 📂pages
+ ┣ 📂styles
+ ┣ 📜 package.json
+ ┣ 📜 tailwind.config.js
+ ┣ 📜 tsconfig.json
+ ┗ 📜 README.md
+```
+
+---
+
+## 🎨 UI Components Used
+
+This project uses a rich set of **Radix UI components**, including:
+
+- Dialogs
+- Dropdowns
+- Menus
+- Tooltips
+- Toasts
+- Accordions
+- And more...
+
+---
+
+## 🌟 Coming Soon
+
+- 🧠 AI enemy behavior
+- 🔊 Sound effects & background music
+- 🏆 Leaderboard integration
+- 📱 Mobile responsiveness
+- 🎨 Skins/custom themes
+
+---
+
+## 📸 Screenshot
+
+<p align="center">
+  <img src="./project-6.png" alt="Gameplay" width="600"/>
+</p>
+
+---
+
+## 🙌 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🔗 Connect
+
+- [Portfolio](https://brylcoder.vercel.app)
+- [LinkedIn](https://linkedin.com/in/brylcoder)
+- [Twitter](https://twitter.com/dpshubham)
+
+---
+
+Have fun collecting coins! 🎯
+```
